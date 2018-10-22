@@ -37,15 +37,15 @@
 //#include <dht.h>
 // Wi-Fi Settings
 const char* ssid = "GreenBulkhead"; // your wireless network name (SSID)
-const char* password = "melodicviolet513"; // your Wi-Fi network password
+const char* password = "xxxxxxxxxxxxx"; // your Wi-Fi network password
 
 WiFiClient client;
 
 // ThingSpeak Settings
 const int channelID = 537825;
-String writeAPIKey = "BJJUPXRKO9XADTV9"; // write API key for your ThingSpeak Channel
+String writeAPIKey = "XXXXXXXXXXXXXXXX"; // write API key for your ThingSpeak Channel
 const char* server = "api.thingspeak.com";
-const int postingInterval = 5 * 1000; // post data every 5 seconds
+const int postingInterval = 15 * 1000; // post data every 15 seconds
 
 //dht DHT;
 
