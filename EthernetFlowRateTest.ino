@@ -119,7 +119,7 @@ void loop()
   //Sesnor Inputs
   int sensorValue1 = analogRead(A0);
   int sensorValue2 = analogRead(A1);
-  long sensorValue3 = totalMilliLitres;
+  float sensorValue3 = totalMilliLitres/1000; //convert to Liters
   
   
   Serial.println(sensorValue1);
